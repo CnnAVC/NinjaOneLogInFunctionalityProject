@@ -1,8 +1,29 @@
-Prerequisites to automate the test cases
-IntelliJ
-Java JDK 17
-Maven
-JUnit
-Cucumber
-Selenium
-Selenium WebDriver
+# QA Automation Framework #
+
+The QA Automation Framework was designed to cover E2E UI tests using BDD with Cucumber and Selenium base on Java.
+
+## Prerequisites
+* Java JDK 17
+* Maven
+* IntelliJ
+* JUnit
+* Cucumber
+* Selenium
+* Selenium WebDriver
+
+
+## How to run the framework? ###
+You can run tests by a Maven command.
+The command could be used by the command line or in your favorite IDE.
+
+mvn clean verify -Dcucumber.filter.tags="[tags]"
+
+Example: clean verify -Dcucumber.filter.tags=@LogInPageNavigation
+
+## Reporting
+### Cucumber report
+It's available for local (under target folder) or GitHub workflow running
+
+
+### Contacts
+* avcucnn@gmail.com
