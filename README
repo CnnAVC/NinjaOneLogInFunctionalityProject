@@ -1,0 +1,8 @@
+Prerequisites to automate the test cases
+IntelliJ
+Java JDK 17
+Maven
+JUnit
+Cucumber
+Selenium
+Selenium WebDriver
